@@ -659,9 +659,10 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url(../img/engagement/footer.jpg);
-    background-position: center;
-    background-repeat: ;
+    background-image: url(../img/footer.jpg);
+    background-position: ;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 section#contact .section-heading {
