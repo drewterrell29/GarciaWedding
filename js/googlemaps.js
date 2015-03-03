@@ -2,6 +2,8 @@
  * 
  */
 
+
+
 function initialize() {
     var mapCanvas = document.getElementById('map-canvas');
     var myLatLang = new google.maps.LatLng(32.92298778, -96.7780602)
@@ -19,3 +21,5 @@ function initialize() {
     });
   }
   google.maps.event.addDomListener(window, 'load', initialize);
+  
+  
