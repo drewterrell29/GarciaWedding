@@ -35,7 +35,7 @@ a.active {
 }
 
 a {
-    color: #fed136;
+    color: #e0ae01;
 }
 
 a:hover,
@@ -878,4 +878,8 @@ body {
 	height: 90%;
 	position: fixed;
 	text-align: center;
+}
+
+.well {
+	margin: 10px;
 }
