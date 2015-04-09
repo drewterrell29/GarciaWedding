@@ -885,3 +885,12 @@ body {
 .well {
 	margin: 10px;
 }
+
+.btn-xlarge {
+    padding: 18px 35px;
+    font-size: 26px; //change this to your desired size
+    line-height: normal;
+    -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+            border-radius: 8px;
+}
