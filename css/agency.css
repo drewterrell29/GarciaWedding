@@ -427,6 +427,8 @@ section h3.section-subheading {
     z-index: 2;
 }
 
+#galleria {width: auto; height: 700px; background: #000 }
+
 @media(min-width:767px) {
     #portfolio .portfolio-item {
         margin: 0 0 30px;
@@ -882,4 +884,13 @@ body {
 
 .well {
 	margin: 10px;
+}
+
+.btn-xlarge {
+    padding: 18px 35px;
+    font-size: 26px; //change this to your desired size
+    line-height: normal;
+    -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+            border-radius: 8px;
 }
