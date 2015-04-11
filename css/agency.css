@@ -427,7 +427,7 @@ section h3.section-subheading {
     z-index: 2;
 }
 
-#galleria {width: auto; height: 700px; background: #000 }
+#galleria {width: auto; height: 500px; background: #000 }
 
 @media(min-width:767px) {
     #portfolio .portfolio-item {
