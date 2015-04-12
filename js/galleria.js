@@ -7,9 +7,10 @@
 function galleria() {
 	Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
 	Galleria.run('#galleria', {
-	    flickr: 'set:72157651388168108',
+	    flickr: 'set:72157651491866400',
 	    flickrOptions: {
-	        sort: 'date-posted-asc'
+	        sort: 'date-posted-asc',
+	        max: 150
 	    }
 	});
 }
