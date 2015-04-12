@@ -269,7 +269,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/backgroundGreen.jpg);
+    background-image: url(../img/DSC00094BW.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -286,7 +286,7 @@ header .intro-text {
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 18px;
+    font-size: 22px;
     font-style: italic;
     line-height: 22px;
 }
@@ -302,8 +302,8 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 100px;
-        padding-bottom: 100px;
+        padding-top: 300px;
+        padding-bottom: 200px;
     }
 
     header .intro-text .intro-lead-in {
