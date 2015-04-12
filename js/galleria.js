@@ -10,7 +10,7 @@ function galleria() {
 	    flickr: 'set:72157651491866400',
 	    flickrOptions: {
 	        sort: 'date-posted-asc',
-	        max: 150
+	        max: 149
 	    }
 	});
 }
