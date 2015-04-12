@@ -270,7 +270,7 @@ header {
     color: #fff;
     background-attachment: scroll;
     background-image: url(../img/backDark.jpg);
-    background-position: center center;
+    background-position: center right;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
