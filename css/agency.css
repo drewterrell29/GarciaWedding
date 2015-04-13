@@ -4,11 +4,6 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-html, body {
-  width: auto !important;
-  overflow-x: hidden !important;
-}
-
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -275,7 +270,7 @@ header {
     color: #fff;
     background-attachment: scroll;
     background-image: url(../img/backgroundGreen.jpg);
-    background-position: center right;
+    background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -291,7 +286,7 @@ header .intro-text {
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 18px;
+    font-size: 22px;
     font-style: italic;
     line-height: 22px;
 }
@@ -307,8 +302,8 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 100px;
-        padding-bottom: 110px;
+        padding-top: 300px;
+        padding-bottom: 200px;
     }
 
     header .intro-text .intro-lead-in {
@@ -432,7 +427,7 @@ section h3.section-subheading {
     z-index: 2;
 }
 
-#galleria {width: auto; height: 500px; background: #000 }
+#galleria {width: auto; height: 500px; background: #000; margin-right: 100px; margin-left: 100px; }
 
 @media(min-width:767px) {
     #portfolio .portfolio-item {
@@ -891,11 +886,25 @@ body {
 	margin: 10px;
 }
 
-.btn-xlarge {
-    padding: 18px 35px;
-    font-size: 26px; //change this to your desired size
-    line-height: normal;
-    -webkit-border-radius: 8px;
-       -moz-border-radius: 8px;
-            border-radius: 8px;
+@media only screen and (max-width : 768px) {
+	.animated {
+		/*CSS transition*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
 }
