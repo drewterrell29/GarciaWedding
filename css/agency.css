@@ -4,6 +4,11 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+html, body {
+  width: auto !important;
+  overflow-x: hidden !important;
+}
+
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -270,7 +275,7 @@ header {
     color: #fff;
     background-attachment: scroll;
     background-image: url(../img/backgroundGreen.jpg);
-    background-position: center center;
+    background-position: center right;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -286,7 +291,7 @@ header .intro-text {
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 22px;
+    font-size: 18px;
     font-style: italic;
     line-height: 22px;
 }
@@ -302,8 +307,8 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 300px;
-        padding-bottom: 200px;
+        padding-top: 100px;
+        padding-bottom: 110px;
     }
 
     header .intro-text .intro-lead-in {
@@ -427,7 +432,7 @@ section h3.section-subheading {
     z-index: 2;
 }
 
-#galleria {width: auto; height: 500px; background: #000; margin-right: 100px; margin-left: 100px; }
+#galleria {width: auto; height: 500px; background: #000 }
 
 @media(min-width:767px) {
     #portfolio .portfolio-item {
@@ -884,6 +889,15 @@ body {
 
 .well {
 	margin: 10px;
+}
+
+.btn-xlarge {
+    padding: 18px 35px;
+    font-size: 26px; //change this to your desired size
+    line-height: normal;
+    -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+            border-radius: 8px;
 }
 
 @media only screen and (max-width : 768px) {
